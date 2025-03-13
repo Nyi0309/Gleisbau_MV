@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@plugin "tailwindcss-animate";
+
+@utility container {
+  padding-inline: 15px;
+  margin-inline: auto;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Barlow', sans-serif;
+
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 960px;
+  --breakpoint-xl: 1200px;
+
+  --color-primary: #18181B;
+  --color-secondary-light: #282624;
+  --color-secondary-dark: #DBD8D7;
+  --color-accent: #ff6900;
+  --color-border: #dbd8d7;
+
+  --shadow-custom: 0px 4px 54px 10px rgba(18, 19, 21, 0.06);
+
+  --background-image-hero: "url('/assets/img/hero.jpg')";
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply font-secondary text-secondary-light;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary text-primary;
+}
+
+.h1 {
+  @apply text-[40px] xl:text-[54px] uppercase font-black leading-[1.1];
+}
+
+.h2 {
+  @apply text-[36px] xl:text-[46px] font-bold leading-[1.3] xl:leading-[56px] capitalize
+}
+
+.h3 {
+  @apply font-bold text-3xl
+}
+
+.h4 {
+  @apply font-semibold text-2xl
 }
