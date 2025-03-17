@@ -5,7 +5,7 @@ import Button from './Button'
 
 const Contact = () => {
     return (
-        <section id="about" className="pt-16 xl:pt-32">
+        <section id="about" className="pt-16 xl:pt-32 overflow-hidden">
             <div className="container mx-auto">
                 <div className="flex flex-col gap-12 xl:gap-0 xl:flex-row xl:items-center">
                     {/**text */}
@@ -21,10 +21,10 @@ const Contact = () => {
                         <Button text="Kontakt" />
                     </div>
                     {/**img*/}
-                    <div className="flex-1 xl:flex xl:justify-center">
-                        <div className="w-[644px] h-[493px] relative">
+                    <div className="flex-1 xl:flex xl:justify-center items-center">
+                        <div className="xl:w-[644px] xl:h-[493px] relative">
                             {/**bg */}
-                            <Image src="/assets/img/5.jpg" alt="Über uns Bild" fill quality={100} sizes="full" priority className="object-cover" />
+                            <Image src="/assets/img/5.jpg" alt="Über uns Bild" width={1000} height={800} quality={100} priority className="object-cover" />
                         </div>
                     </div>
                 </div>
