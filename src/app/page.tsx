@@ -33,7 +33,7 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className=''>
       <Topbar />
       {/**static header */}
       <div className='relative z-10'>

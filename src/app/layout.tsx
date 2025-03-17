@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="de" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${barlow.variable} antialiased dark:bg-primary bg-white`}
+        className={`${inter.variable} ${barlow.variable} antialiased dark:bg-primary bg-white overflow-x-hidden`}
       >
         <ThemeProvider
           attribute="class"
