@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @plugin "tailwindcss-animate";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @utility container {
   padding-inline: 15px;
@@ -24,7 +25,9 @@
 
   --shadow-custom: 0px 4px 54px 10px rgba(18, 19, 21, 0.06);
 
-  --background-image-hero: "url('/assets/img/hero.jpg')";
+  --background-image-hero: url('/assets/img/hero.jpg');
+  --background-image-black-transparent-right: linear-gradient(to right, #18181B, rgb(0, 0, 0, 0));
+  --background-image-black-transparent-left: linear-gradient(to left, #18181B, rgb(0, 0, 0, 0));
 }
 
 .font-primary {
@@ -45,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  @apply font-primary text-primary;
+  @apply font-primary;
 }
 
 .h1 {

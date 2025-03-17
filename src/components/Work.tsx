@@ -1,8 +1,11 @@
 import React from 'react'
+import CardCarousel from './ui/CardCarousel'
 
 const Work = () => {
     return (
-        <section id='work' className="h-screen bg-slate-200">Work</section>
+        <section id='work' className="pt-16 xl:pt-32">
+            <CardCarousel />
+        </section>
     )
 }
 

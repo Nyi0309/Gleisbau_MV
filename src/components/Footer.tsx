@@ -1,8 +1,13 @@
 import React from 'react'
+import { ToggleButton } from './ToggleButton'
 
 const Footer = () => {
     return (
-        <footer>Footer</footer>
+        <footer>
+            <div>
+                <ToggleButton />
+            </div>
+        </footer>
     )
 }
 
