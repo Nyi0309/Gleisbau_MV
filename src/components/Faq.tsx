@@ -24,16 +24,16 @@ const faqItemsData = [
     },
 ]
 
-const faqItemVarints = {
-    hidden: { opacity: 0, y: 30 },
+// const faqItemVarints = {
+//     hidden: { opacity: 0, y: 30 },
 
 
-    visible: () => ({
-        opacity: 1,
-        y: 0,
-        transition: { delay: index * 0.1, duration: 0.3 }
-    }),
-};
+//     visible: () => ({
+//         opacity: 1,
+//         y: 0,
+//         transition: { delay: index * 0.1, duration: 0.3 }
+//     }),
+// };
 
 const Faq = () => {
     return (
