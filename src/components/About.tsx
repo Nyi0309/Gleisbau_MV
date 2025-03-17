@@ -5,7 +5,7 @@ import PreTitle from "./PreTitle"
 
 const About = () => {
     return (
-        <section id="about" className="pt-16 xl:pt-32">
+        <section id="about" className="pt-16 xl:pt-32 overflow-hidden">
             <div className="container mx-auto">
                 <div className="flex flex-col gap-12 xl:gap-0 xl:flex-row xl:items-center">
                     {/**text */}
