@@ -95,7 +95,7 @@ const CardCarousel = () => {
 const Card = ({ url, category, title, description }: ItemType) => {
     return (
         <div
-            className="relative shrink-0 rounded-2xl border border-border/50 bg-white shadow-md transition-all hover:scale-[1.015] hover:shadow-xl"
+            className="relative shrink-0 rounded-2xl border bg-white shadow-md transition-all hover:scale-[1.015] hover:shadow-xl"
             style={{
                 width: CARD_WIDTH,
                 height: CARD_HEIGHT,
