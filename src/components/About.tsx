@@ -1,6 +1,9 @@
+"use client"
 import Image from "next/image"
 import Button from "./Button"
 import PreTitle from "./PreTitle"
+import { motion } from "framer-motion"
+import { fadeIn } from "@/lib/variants"
 
 
 const About = () => {
@@ -9,8 +12,12 @@ const About = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col gap-12 xl:gap-0 xl:flex-row xl:items-center">
                     {/**text */}
-                    <div className="flex-1">
-                        <div className="max-w-[540px]">
+                    <motion.div
+                        variants={fadeIn({ direction: "right", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                        className="flex-1">
+                        <div
+
+                            className="max-w-[540px]">
                             {/**Überschrift */}
                             <PreTitle text="Über uns" />
                             <h2 className="h2 text-primary dark:text-white mb-6">Lorem ipsum dolor sit amet, consectetuer</h2>
@@ -23,15 +30,17 @@ const About = () => {
                         </div>
                         {/**btn */}
                         <Button text="Kontakt" />
-                    </div>
+                    </motion.div>
                     {/**img*/}
-                    <div className="flex-1 xl:flex xl:justify-center">
+                    <motion.div
+                        variants={fadeIn({ direction: "left", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                        className="flex-1 xl:flex xl:justify-center">
                         <div className="w-[444px] h-[493px] relative">
                             {/**bg */}
                             <div className="hidden xl:flex w-[444px] h-[493px] bg-accent absolute -top-4 -left-4 -z-10"></div>
                             <Image src="/assets/img/1.jpg" alt="Über uns Bild" fill quality={100} priority className="object-cover" />
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>

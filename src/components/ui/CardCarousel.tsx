@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import useMeasure from "react-use-measure";
 import PreTitle from "../PreTitle";
-import Button from "../Button";
+import { fadeIn } from "@/lib/variants";
 
 const CARD_WIDTH = 400;
 const CARD_HEIGHT = 500;
@@ -47,19 +47,22 @@ const CardCarousel = () => {
             <div className="relative overflow-hidden p-4">
                 {/* CARDS */}
                 <div className="mx-auto container">
-                    <div className='text-center max-w-[540px] mx-auto mb-20'>
+                    <motion.div
+                        variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                        className='text-center max-w-[540px] mx-auto mb-20'>
                         <PreTitle center text="Unsere Referenzen" />
                         <h2 className='h2 mb-3 dark:text-white text-primary'>Solutions We Provide</h2>
                         <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanadipiscing elit. Aenean adipiscing elit. Aenean  </p>
-                    </div>
+                    </motion.div>
                     <motion.div
                         animate={{
                             x: offset,
                         }}
+
                         className="flex"
                     >
                         {items.map((item) => {
-                            return <Card key={item.id} {...item} />;
+                            return <motion.div key={item.id} variants={fadeIn({ direction: "up", delay: 0.3 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}><Card {...item} /></motion.div>;
                         })}
                     </motion.div>
                 </div>

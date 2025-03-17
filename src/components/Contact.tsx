@@ -2,6 +2,8 @@ import React from 'react'
 import PreTitle from './PreTitle'
 import Image from 'next/image'
 import Button from './Button'
+import { motion } from "framer-motion"
+import { fadeIn } from '@/lib/variants'
 
 const Contact = () => {
     return (
@@ -9,7 +11,9 @@ const Contact = () => {
             <div className="container mx-auto">
                 <div className="flex flex-col gap-12 xl:gap-0 xl:flex-row xl:items-center">
                     {/**text */}
-                    <div className="flex-1">
+                    <motion.div
+                        variants={fadeIn({ direction: "right", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                        className="flex-1">
                         <div className="max-w-[540px]">
                             {/**Überschrift */}
                             <PreTitle text="Kontaktiere uns" />
@@ -19,14 +23,16 @@ const Contact = () => {
 
                         {/**btn */}
                         <Button text="Kontakt" />
-                    </div>
+                    </motion.div>
                     {/**img*/}
-                    <div className="flex-1 xl:flex xl:justify-center">
+                    <motion.div
+                        variants={fadeIn({ direction: "left", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                        className="flex-1 xl:flex xl:justify-center">
                         <div className="w-[644px] h-[493px] relative p-2">
                             {/**bg */}
                             <Image src="/assets/img/5.jpg" alt="Über uns Bild" fill quality={100} sizes="full" priority className="object-cover" />
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </section>

@@ -1,6 +1,9 @@
+"use client"
+import { motion, Variants } from "framer-motion"
 import React from 'react'
 import PreTitle from './PreTitle'
 import Faqitem from './Faqitem';
+import { fadeIn } from "@/lib/variants";
 
 const faqItemsData = [
     {
@@ -25,24 +28,39 @@ const faqItemsData = [
     },
 ]
 
+const faqItemVariants: Variants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (index: number | undefined) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+            delay: (index ?? 0) * 0.1, // Falls `index` undefined ist, setze Standardwert 0
+            duration: 0.3,
+        },
+    }),
+};
 
 const Faq = () => {
     return (
-        <section id='service' className="pt-16 xl:pt-32 pb-16">
+        <section className="pt-16 xl:pt-32 pb-16">
             <div className="container mx-auto">
                 {/**text */}
-                <div className='text-center max-w-[540px] mx-auto mb-20'>
+                <motion.div
+                    variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
+                    className='text-center max-w-[540px] mx-auto mb-20'>
                     <PreTitle center text="Faq" />
                     <h2 className='h2 mb-3 dark:text-white text-primary'>Solutions We Provide</h2>
                     <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanadipiscing elit. Aenean adipiscing elit. Aenean  </p>
-                </div>
+                </motion.div>
 
                 {/**faq itemss */}
                 <ul className='w-full flex flex-col'>
                     {faqItemsData.map((item, index) => {
-                        return <li key={index} className=''>
+                        return <motion.li
+                            variants={faqItemVariants} initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.2 }} custom={index}
+                            key={index} className=''>
                             <Faqitem title={item.title} description={item.description} />
-                        </li>
+                        </motion.li>
                     })}
                 </ul>
             </div>
