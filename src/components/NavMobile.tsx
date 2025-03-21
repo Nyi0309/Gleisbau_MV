@@ -34,7 +34,7 @@ const links = [
 const NavMobile = () => {
     const [isOpen, setIsOpen] = useState(false);
     return <Sheet open={isOpen} onOpenChange={setIsOpen}>
-        <SheetTrigger className="text-white flex items-center justify-center text-3xl cursor-pointer"
+        <SheetTrigger className="text-primary flex items-center justify-center text-3xl cursor-pointer"
             onClick={() => setIsOpen(true)}>
             <RiMenu3Fill />
         </SheetTrigger>
