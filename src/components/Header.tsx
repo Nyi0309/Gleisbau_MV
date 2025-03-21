@@ -30,7 +30,7 @@ const links = [
 
 const Header = () => {
     return (
-        <header className='bg-primary py-4 text-secondary-dark '>
+        <header className='bg-white py-4 text-secondary-dark '>
             <div className="container mx-auto">
 
                 <div className='flex items-center justify-between'>
@@ -41,7 +41,7 @@ const Header = () => {
                         <ul className='flex'>
                             {links.map((link, index) => {
                                 return (
-                                    <li key={index} className="text-white text-sm uppercase font-primary font-medium tracking-[1.2px] after:content-['/'] after:mx-4 last:after:content-none after:text-accent">
+                                    <li key={index} className="text-primary text-sm uppercase font-primary font-medium tracking-[1.2px] after:content-['/'] after:mx-4 last:after:content-none after:text-accent">
                                         <ScrollLink to={link.path} smooth={true} spy className='cursor-pointer' activeClass='text-accent' duration={1000}>
                                             {link.name}
                                         </ScrollLink>
