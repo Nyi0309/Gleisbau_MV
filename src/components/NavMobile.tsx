@@ -38,7 +38,7 @@ const NavMobile = () => {
             onClick={() => setIsOpen(true)}>
             <RiMenu3Fill />
         </SheetTrigger>
-        <SheetContent className="bg-primary border-none text-white">
+        <SheetContent className="bg-white border-none text-primary">
             <div className="flex flex-col pt-16 pb-8 items-center justify-between h-full">
                 <SheetHeader>
                     <SheetTitle>
@@ -50,7 +50,7 @@ const NavMobile = () => {
                 </SheetHeader>
                 <ul className="w-full flex flex-col gap-10 justify-center text-center">
                     {links.map((link, index) => {
-                        return <li key={index} className="text-white uppercase font-primary font-medium tracking-[1.2px]">
+                        return <li key={index} className="text-primary uppercase font-primary font-medium tracking-[1.2px]">
                             <ScrollLink
                                 to={link.path}
                                 smooth
