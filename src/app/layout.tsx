@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Barlow, Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/ui/theme-provider";
+
 
 const inter = Inter({
   variable: "--font-inter",
@@ -30,15 +30,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${barlow.variable} antialiased dark:bg-primary bg-white overflow-x-hidden`}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
           {children}
-
-        </ThemeProvider>
       </body>
     </html>
   );
