@@ -29,7 +29,9 @@ const About = () => {
                             <p>Geschäftsführer</p>
                         </div>
                         {/**btn */}
-                        <Button text="Kontakt" />
+                       <a href="mailto:info@gleisbau-mv.de">
+                       <Button text="Kontakt" />
+                       </a>
                     </motion.div>
                     {/**img*/}
                     <motion.div

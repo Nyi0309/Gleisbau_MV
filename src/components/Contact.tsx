@@ -22,7 +22,9 @@ const Contact = () => {
                         </div>
 
                         {/**btn */}
+                        <a href="mailto:info@gleisbau-mv.de">
                         <Button text="Kontakt" />
+                        </a>
                     </motion.div>
                     {/**img*/}
                     <motion.div

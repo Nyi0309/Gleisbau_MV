@@ -2,12 +2,12 @@
 import { motion } from "framer-motion";
 
 const jobOffers = [
-    { title: "Frontend Developer (m/w/d) – Jetzt bewerben!" },
-    { title: "Projektmanager (m/w/d) – Karriere starten!" },
-    { title: "Backend Engineer (m/w/d) – Bewirb dich jetzt!" },
-    { title: "UX/UI Designer (m/w/d) – Werde Teil unseres Teams!" },
-    { title: "DevOps Specialist (m/w/d) – Jetzt informieren!" },
-    { title: "IT-Support (m/w/d) – Wir suchen dich!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
+    { title: "Baumaschinenführer (m/w/d) – Jetzt bewerben!" },
 ];
 
 export const Liveticker = () => {
@@ -28,7 +28,7 @@ export const Liveticker = () => {
                         {jobOffers.map(({ title }, index) => (
                             <a
                                 key={index}
-                                href="/"
+                                href="mailto:info@gleisbau-mv.de"
                                 className="text-4xl xl:text-5xl font-semibold text-secondary-dark hover:text-white transition-colors"
                             >
                                 {title}
@@ -37,7 +37,7 @@ export const Liveticker = () => {
                         {jobOffers.map(({ title }, index) => (
                             <a
                                 key={`duplicate-${index}`}
-                                href="/"
+                                 href="mailto:info@gleisbau-mv.de"
                                 className="text-4xl xl:text-5xl font-semibold text-secondary-dark hover:text-white transition-colors"
                             >
                                 {title}

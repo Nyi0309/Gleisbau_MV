@@ -149,7 +149,9 @@ const Service = () => {
                                                     })}
                                                 </ul>
                                                 {/**btn */}
-                                                <Button text="mehr erfahren" />
+                                              <a href="#contact">
+                                              <Button text="mehr erfahren" />
+                                              </a>
                                             </div>
                                         </div>
                                     </motion.div>

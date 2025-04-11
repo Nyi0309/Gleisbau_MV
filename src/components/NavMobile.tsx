@@ -68,11 +68,11 @@ const NavMobile = () => {
                 {/**icons */}
                 <div className="flex gap-6">
                     {/**phone */}
-                    <a className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><RiPhoneFill className="text-white text-2xl" /></a>
+                    <a href="tel:+4939813494485" className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><RiPhoneFill className="text-white text-2xl" /></a>
                     {/**mail */}
-                    <a className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><IoMdMail className="text-white text-2xl" /></a>
+                    <a href="mailto:info@gleisbau-mv.de" className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><IoMdMail className="text-white text-2xl" /></a>
                     {/**Pin */}
-                    <a className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><MdLocationPin className="text-white text-2xl" /></a>
+                    <a href="https://maps.app.goo.gl/KUkRmPC7niBVbyct7" target="blank"  className="bg-primary w-8 h-8 flex items-center justify-center cursor-pointer"><MdLocationPin className="text-white text-2xl" /></a>
                 </div>
             </div>
 

@@ -17,7 +17,9 @@ const Hero = () => {
                     {/**button */}
                     <motion.div
                         variants={fadeIn({ direction: "up", delay: 0.4 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.8 }}>
-                        <Button text="Referenzen"></Button>
+                       <a href="#work">
+                       <Button text="Referenzen"></Button>
+                       </a>
                     </motion.div>
                 </div>
             </div>
