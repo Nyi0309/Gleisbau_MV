@@ -32,7 +32,7 @@ const Contact = () => {
                         className="flex-1 xl:flex xl:justify-center">
                         <div className="w-[644px] h-[493px] relative p-2">
                             {/**bg */}
-                            <Image src="/assets/img/5.jpg" alt="Über uns Bild" fill quality={100} sizes="full" priority className="object-cover" />
+                            <Image src="/assets/img/5.webp" alt="Kontakt Bild" fill quality={100} sizes="full" priority className="object-cover" />
                         </div>
                     </motion.div>
                 </div>

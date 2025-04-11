@@ -40,7 +40,7 @@ const About = () => {
                         <div className="w-[444px] h-[493px] relative">
                             {/**bg */}
                             <div className="hidden xl:flex w-[444px] h-[493px] bg-accent absolute -top-4 -left-4 -z-10"></div>
-                            <Image src="/assets/img/1.jpg" alt="Über uns Bild" fill quality={100} priority className="object-cover" />
+                            <Image src="/assets/img/1.webp" alt="Über uns Bild" fill quality={100} priority className="object-cover" />
                         </div>
                     </motion.div>
                 </div>

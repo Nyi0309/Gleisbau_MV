@@ -24,8 +24,8 @@ const serviceData = [
             "Gleis- und Weichenneubau einschließlich Herstellung der Schotterbettung",
         ],
         thumbs: [
-            { url: "/assets/img/4.jpg" },
-            { url: "/assets/img/2.jpg" }
+            { url: "/assets/img/4.webp" },
+            { url: "/assets/img/2.webp" }
 
         ]
     },
@@ -42,8 +42,8 @@ const serviceData = [
             "Instandsetzungsarbeiten im Anschlussbahnbereich",
         ],
         thumbs: [
-            { url: "/assets/img/2.jpg" },
-            { url: "/assets/img/3.jpg" }
+            { url: "/assets/img/2.webp" },
+            { url: "/assets/img/3.webp" }
 
         ]
     },
@@ -61,8 +61,8 @@ const serviceData = [
             "Bahnsteigkantenbau und -ausstattung",
         ],
         thumbs: [
-            { url: "/assets/img/4.jpg" },
-            { url: "/assets/img/2.jpg" }
+            { url: "/assets/img/4.webp" },
+            { url: "/assets/img/2.webp" }
 
         ]
     },
@@ -76,8 +76,8 @@ const serviceData = [
             "Bauleistungen außerhalb des direkten Leistungsprofils",
         ],
         thumbs: [
-            { url: "/assets/img/2.jpg" },
-            { url: "/assets/img/4.jpg" }
+            { url: "/assets/img/2.webp" },
+            { url: "/assets/img/4.webp" }
 
         ]
     },

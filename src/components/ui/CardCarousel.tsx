@@ -134,7 +134,7 @@ type ItemType = {
 const items: ItemType[] = [
     {
         id: 1,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Mice",
         title: "Just feels right",
         description:
@@ -142,7 +142,7 @@ const items: ItemType[] = [
     },
     {
         id: 2,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Keyboards",
         title: "Type in style",
         description:
@@ -150,7 +150,7 @@ const items: ItemType[] = [
     },
     {
         id: 3,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Monitors",
         title: "Looks like a win",
         description:
@@ -158,7 +158,7 @@ const items: ItemType[] = [
     },
     {
         id: 4,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Chairs",
         title: "Back feels great",
         description:
@@ -166,7 +166,7 @@ const items: ItemType[] = [
     },
     {
         id: 5,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Lights",
         title: "It's lit",
         description:
@@ -174,7 +174,7 @@ const items: ItemType[] = [
     },
     {
         id: 6,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Desks",
         title: "Stand up straight",
         description:
@@ -182,7 +182,7 @@ const items: ItemType[] = [
     },
     {
         id: 7,
-        url: "/assets/img/3.jpg",
+        url: "/assets/img/3.webp",
         category: "Headphones",
         title: "Sounds good",
         description:
