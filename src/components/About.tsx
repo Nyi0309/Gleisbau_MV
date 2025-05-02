@@ -15,19 +15,19 @@ const About = () => {
                     <motion.div
                         variants={fadeIn({ direction: "right", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
                         className="flex-1">
-                        <div
-
-                            className="max-w-[540px]">
+                        <div className="max-w-[540px]">
                             {/**Überschrift */}
                             <PreTitle text="Über uns" />
-                            <h2 className="h2 text-primary dark:text-white mb-6">Lorem ipsum dolor sit amet, consectetuer</h2>
-                            <p className="mb-11 text-primary dark:text-secondary-dark">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                            <h2 className="h2 text-primary dark:text-white mb-6">Präzision im Gleisbau – regional & zertifiziert</h2>
+                            <p className="mb-11 text-primary dark:text-secondary-dark">Seit 2010 steht GBMV für zuverlässige Leistungen im Gleis- und Tiefbau. Unser eingespieltes Team arbeitet im Mittel- und Norddeutschen Raum und betreut Projekte von Bau über Instandhaltung bis zur Sanierung von Bahnanlagen. Als zertifiziertes Mitglied der Überwachungsgemeinschaft Gleisbau e.V. und präqualifizierter Partner der Deutschen Bahn setzen wir auf Qualität, Verlässlichkeit und moderne Technik.
+
+                            </p>
                         </div>
                         {/**signatur */}
-                        <div className="w-max flex flex-col mb-10 text-primary dark:text-secondary-dark">
+                        {/* <div className="w-max flex flex-col mb-10 text-primary dark:text-secondary-dark">
                             <p>Fred Röwer</p>
-                            <p>Geschäftsführer</p>
-                        </div>
+                            <p>Geschäftsführer</p> */}
+                        {/* </div> */}
                         {/**btn */}
                        <a href="mailto:info@gleisbau-mv.de">
                        <Button text="Kontakt" />

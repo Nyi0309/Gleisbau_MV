@@ -114,6 +114,7 @@ const Card = ({ url, category, title, description }: ItemType) => {
                 <span className="text-md font-primary font-semibold uppercase text-accent">
                     {category}
                 </span>
+                <p className="mb-2 text-md font-medium">{title}</p>
                 <p className="text-white">{description}</p>
 
             </div>
@@ -135,26 +136,26 @@ const items: ItemType[] = [
     {
         id: 1,
         url: "/assets/img/3.webp",
-        category: "Mice",
-        title: "Just feels right",
+        category: "2024",
+        title: "Kunde: Happy KSR GmbH",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "Jährliche Wartungsarbeiten am Anschlussgleis Kieswerk Klocksin/Mecklenburg Vorpommern",
     },
     {
         id: 2,
         url: "/assets/img/3.webp",
-        category: "Keyboards",
-        title: "Type in style",
+        category: "2025",
+        title: "Kunde: Deutsche Bahn",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "Kompletterneuerung Bahnübergang mit Rammrohrgründungsarbeiten und Kabeltiefbau inklusive umfangreicher Straßenbaumaßnahmen und Bernerdeich/Niedersachsen",
     },
     {
         id: 3,
         url: "/assets/img/3.webp",
-        category: "Monitors",
-        title: "Looks like a win",
+        category: "2025",
+        title: "Kunde: Deutsche Bahn",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "Kompletterneuerung Bahnübergang mit Kabeltiefbau Warnitz/Mecklenburg-Vorpommern",
     },
     {
         id: 4,
