@@ -13,7 +13,7 @@ const Hero = () => {
                     <motion.h1 variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.8 }} className="h1 text-white mb-4">
                         <span className="text-accent">Gleisbau. </span>
                         Stabil. Zukunftssicher.</motion.h1>
-                    <motion.p variants={fadeIn({ direction: "up", delay: 0.4 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.8 }} className="mb-9">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo animi, culpa natus enim atque tempore expedita placeat incidunt odit quae, voluptates, porro fugit eum?</motion.p>
+                    <motion.p variants={fadeIn({ direction: "up", delay: 0.4 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.8 }} className="mb-9">Als zuverlässiger Partner im Gleis- und Tiefbau stehen wir für sichere Infrastruktur, hohe Qualität und termingerechte Umsetzung – regional wie überregional. Seit über einem Jahrzehnt schaffen wir Verbindungen, die halten.</motion.p>
                     {/**button */}
                     <motion.div
                         variants={fadeIn({ direction: "up", delay: 0.4 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.8 }}>

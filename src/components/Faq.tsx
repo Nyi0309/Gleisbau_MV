@@ -49,8 +49,8 @@ const Faq = () => {
                     variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
                     className='text-center max-w-[540px] mx-auto mb-20'>
                     <PreTitle center text="Faq" />
-                    <h2 className='h2 mb-3 dark:text-white text-primary'>Solutions We Provide</h2>
-                    <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanadipiscing elit. Aenean adipiscing elit. Aenean  </p>
+                    <h2 className='h2 mb-3 dark:text-white text-primary'>Häufige Fragen – Klar beantwortet</h2>
+                    <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Sie haben Fragen zu unseren Leistungen im Gleis- oder Tiefbau? Hier finden Sie Antworten auf häufig gestellte Fragen.</p>
                 </motion.div>
 
                 {/**faq itemss */}

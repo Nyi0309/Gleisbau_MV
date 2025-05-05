@@ -14,7 +14,7 @@ const serviceData = [
         name: "Gleisbau",
         icon: <BsFillTrainLightrailFrontFill />,
         title: "Gleis- und Weichenbau",
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetu",
+        description: "Ob Neubau oder Erneuerung – wir realisieren anspruchsvolle Gleis- und Weichenbauprojekte nach höchsten technischen Standards. Mit Erfahrung, Präzision und modernster Ausrüstung sorgen wir für leistungsfähige und zukunftssichere Bahninfrastruktur.",
         serviceList: [
             "Kranschienenbau",
             "Straßenbahnbau",
@@ -33,7 +33,7 @@ const serviceData = [
         name: "Instandhaltung",
         icon: <BsFillTrainLightrailFrontFill />,
         title: "Instandhaltung & Modernisierung",
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetu",
+        description: "Regelmäßige Instandhaltung sichert den langfristigen Betrieb Ihrer Gleisanlagen. Wir übernehmen alle notwendigen Maßnahmen zur Wartung, Fehlerbeseitigung und technischen Modernisierung – effizient, termingetreu und mit minimaler Betriebsunterbrechung.",
         serviceList: [
             "Durcharbeitung und Instandsetzungsarbeiten an Gleisen und Weichenanlagen",
             "Schienenschweiß- und Neutralisationsarbeiten/Spannungsausgleich",
@@ -51,7 +51,7 @@ const serviceData = [
         name: "Tiefbau",
         icon: <BsFillTrainLightrailFrontFill />,
         title: "Tiefbau & Infrastruktur",
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetu",
+        description: "Die Basis jeder funktionierenden Bahnstrecke ist ein solides Fundament. Unsere Leistungen im Tiefbau umfassen Kabelverlegung, Entwässerung, Bahnübergänge und mehr – präzise umgesetzt für nachhaltige Infrastrukturprojekte.",
         serviceList: [
             "Gleisdurchörterungen für Kabelquerungen",
             "Kabeltiefbau, Errichtung von Kabelkanal- und Troganlagen",
@@ -70,7 +70,7 @@ const serviceData = [
         name: "Zusatzleistung",
         icon: <BsFillTrainLightrailFrontFill />,
         title: "Zusatz- & Spezialleistungen",
-        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetu",
+        description: "Flexibilität ist unsere Stärke. Auch über klassische Gleisbauarbeiten hinaus übernehmen wir Sonderaufträge und spezielle Bauleistungen – schnell, lösungsorientiert und mit technischer Kompetenz.",
         serviceList: [
             "Einbau von Planumsschutzschichten in kleineren Abschnitten",
             "Bauleistungen außerhalb des direkten Leistungsprofils",
@@ -97,8 +97,8 @@ const Service = () => {
                     variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
                     className='text-center max-w-[540px] mx-auto mb-20'>
                     <PreTitle center text="Unsere Leistungen" />
-                    <h2 className='h2 mb-3 dark:text-white text-primary'>Solutions We Provide</h2>
-                    <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanadipiscing elit. Aenean adipiscing elit. Aenean  </p>
+                    <h2 className='h2 mb-3 dark:text-white text-primary'>Unsere Kompetenz im Überblick</h2>
+                    <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Ob Neubau, Instandhaltung oder Spezialprojekte – wir bieten zuverlässige Leistungen im Gleis-, Weichen- und Tiefbau. Effizient, sicher und termingerecht.</p>
                 </motion.div>
                 {/**tabs */}
                 <motion.div variants={fadeIn({ direction: "up", delay: 0.3 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}>

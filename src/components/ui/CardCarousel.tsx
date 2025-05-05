@@ -51,8 +51,8 @@ const CardCarousel = () => {
                         variants={fadeIn({ direction: "up", delay: 0.2 })} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.2 }}
                         className='text-center max-w-[540px] mx-auto mb-20'>
                         <PreTitle center text="Unsere Referenzen" />
-                        <h2 className='h2 mb-3 dark:text-white text-primary'>Solutions We Provide</h2>
-                        <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneanadipiscing elit. Aenean adipiscing elit. Aenean  </p>
+                        <h2 className='h2 mb-3 dark:text-white text-primary'>Starke Projekte. Starke Partnerschaften.</h2>
+                        <p className='mb-11 max-w-[480px] mx-auto dark:text-secondary-dark text-primary'>Vom regionalen Wartungseinsatz bis zum komplexen Bahnübergangsumbau – wir realisieren Projekte zuverlässig, präzise und im Sinne unserer Auftraggeber. Ein Auszug aktueller Referenzen zeigt, wofür GBMV steht: Qualität, Termintreue und praxisnahe Lösungen im Gleisbau.</p>
                     </motion.div>
                     <motion.div
                         animate={{
@@ -160,33 +160,33 @@ const items: ItemType[] = [
     {
         id: 4,
         url: "/assets/img/3.webp",
-        category: "Chairs",
-        title: "Back feels great",
+        category: "",
+        title: "",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "",
     },
     {
         id: 5,
         url: "/assets/img/3.webp",
-        category: "Lights",
-        title: "It's lit",
+        category: "",
+        title: "",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "",
     },
     {
         id: 6,
         url: "/assets/img/3.webp",
-        category: "Desks",
-        title: "Stand up straight",
+        category: "",
+        title: "",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "",
     },
     {
         id: 7,
         url: "/assets/img/3.webp",
-        category: "Headphones",
-        title: "Sounds good",
+        category: "",
+        title: "",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, dolor.",
+            "",
     },
 ];

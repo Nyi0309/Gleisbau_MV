@@ -17,8 +17,9 @@ const Contact = () => {
                         <div className="max-w-[540px]">
                             {/**Überschrift */}
                             <PreTitle text="Kontaktiere uns" />
-                            <h2 className="h2 text-primary dark:text-white mb-6">Lorem ipsum dolor sit amet, consectetuer</h2>
-                            <p className="mb-11 text-primary dark:text-secondary-dark">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                            <h2 className="h2 text-primary dark:text-white mb-6">Direkter Draht zu GBMV</h2>
+                            <p className="mb-11 text-primary dark:text-secondary-dark">Sie möchten unsere Leistungsfähigkeit kennenlernen oder ein konkretes Projekt besprechen? <br/>Dann melden Sie sich gern telefonisch oder per E-Mail bei uns.<br/>
+                            <span className='font-medium'>Auf gute Zusammenarbeit.</span> </p>
                         </div>
 
                         {/**btn */}
