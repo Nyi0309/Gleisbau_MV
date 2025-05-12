@@ -1,11 +1,19 @@
 import { fadeIn } from "@/lib/variants";
 import Button from "./Button"
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 
 const Hero = () => {
     return (
-        <section className="h-[70vh] bg-hero bg-no-repeat bg-cover bg-center relative">
+        <section className="h-[70vh] relative">
+              <Image
+                src="/assets/img/hero.webp"
+                alt="Hero Background"
+                fill
+                priority
+                className="object-cover object-center z-0"
+            />
             {/**overlay */}
             <div className="absolute inset-0 bg-gradient-to-l from-black/0 via-black/30 to-black/70 z-10"></div>
             <div className="container mx-auto h-full flex items-center">
