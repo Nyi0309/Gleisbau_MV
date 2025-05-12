@@ -131,7 +131,7 @@ const Service = () => {
                                         {/**images */}
                                         <div className='flex md:flex-col gap-5 xl:gap-[30px]'>
                                             {item.thumbs.map((thumb, index) => (
-                                                <div key={index} className='relative w-[140px] xl:w-[200px] h-[140px] xl:h-[200px]'><Image src={thumb.url} alt={item.name} quality={100} priority fill sizes="full" className='object-cover' /></div>
+                                                <div key={index} className='relative w-[140px] xl:w-[200px] h-[140px] xl:h-[200px]'><Image src={thumb.url} alt={item.name} quality={50} priority fill sizes="full" className='object-cover' /></div>
                                             ))}
                                         </div>
                                         {/** text & button*/}
