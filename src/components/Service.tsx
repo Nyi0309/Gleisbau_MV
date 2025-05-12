@@ -42,8 +42,8 @@ const serviceData = [
             "Instandsetzungsarbeiten im Anschlussbahnbereich",
         ],
         thumbs: [
-            { url: "/assets/img/2.webp" },
-            { url: "/assets/img/3.webp" }
+            { url: "/assets/img/12.webp" },
+            { url: "/assets/img/10.webp" }
 
         ]
     },
@@ -61,8 +61,8 @@ const serviceData = [
             "Bahnsteigkantenbau und -ausstattung",
         ],
         thumbs: [
-            { url: "/assets/img/4.webp" },
-            { url: "/assets/img/2.webp" }
+            { url: "/assets/img/7.webp" },
+            { url: "/assets/img/6.webp" }
 
         ]
     },
@@ -76,8 +76,8 @@ const serviceData = [
             "Bauleistungen außerhalb des direkten Leistungsprofils",
         ],
         thumbs: [
-            { url: "/assets/img/2.webp" },
-            { url: "/assets/img/4.webp" }
+            { url: "/assets/img/11.webp" },
+            { url: "/assets/img/8.webp" }
 
         ]
     },

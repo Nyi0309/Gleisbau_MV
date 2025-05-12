@@ -135,7 +135,7 @@ type ItemType = {
 const items: ItemType[] = [
     {
         id: 1,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/9.webp",
         category: "2024",
         title: "Kunde: Happy KSR GmbH",
         description:
@@ -143,7 +143,7 @@ const items: ItemType[] = [
     },
     {
         id: 2,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/11.webp",
         category: "2025",
         title: "Kunde: Deutsche Bahn",
         description:
@@ -151,7 +151,7 @@ const items: ItemType[] = [
     },
     {
         id: 3,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/12.webp",
         category: "2025",
         title: "Kunde: Deutsche Bahn",
         description:
@@ -159,7 +159,7 @@ const items: ItemType[] = [
     },
     {
         id: 4,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/6.webp",
         category: "",
         title: "",
         description:
@@ -167,7 +167,7 @@ const items: ItemType[] = [
     },
     {
         id: 5,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/7.webp",
         category: "",
         title: "",
         description:
@@ -175,7 +175,7 @@ const items: ItemType[] = [
     },
     {
         id: 6,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/8.webp",
         category: "",
         title: "",
         description:
@@ -183,7 +183,7 @@ const items: ItemType[] = [
     },
     {
         id: 7,
-        url: "/assets/img/3.webp",
+        url: "/assets/img/10.webp",
         category: "",
         title: "",
         description:
