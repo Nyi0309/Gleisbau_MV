@@ -21,6 +21,7 @@ const serviceData = [
             "Schienenauswechslung, Schienenfehlerbeseitigung",
             "Gleisauswechslung im konventionellen Umbauverfahren",
             "Einzelschwellenauswechslung",
+            "Bahnübergangsarbeiten einschließlich Straßenbelag und Gleisausplattung",
             "Gleis- und Weichenneubau einschließlich Herstellung der Schotterbettung",
         ],
         thumbs: [
@@ -55,7 +56,6 @@ const serviceData = [
         serviceList: [
             "Gleisdurchörterungen für Kabelquerungen",
             "Kabeltiefbau, Errichtung von Kabelkanal- und Troganlagen",
-            "Bahnübergangsarbeiten einschließlich Straßenbelag und Gleisausplattung",
             "Entwässerungsarbeiten (Herstellung von Bahngräben, Tiefenentwässerung)",
             "Randweg- und Rangierwegherstellung",
             "Bahnsteigkantenbau und -ausstattung",
@@ -149,9 +149,9 @@ const Service = () => {
                                                     })}
                                                 </ul>
                                                 {/**btn */}
-                                              <a href="#contact">
-                                              <Button text="mehr erfahren" />
-                                              </a>
+                                                <a href="#contact">
+                                                    <Button text="mehr erfahren" />
+                                                </a>
                                             </div>
                                         </div>
                                     </motion.div>

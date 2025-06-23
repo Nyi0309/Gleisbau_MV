@@ -19,7 +19,9 @@ const About = () => {
                             {/**Überschrift */}
                             <PreTitle text="Über uns" />
                             <h2 className="h2 text-primary dark:text-white mb-6">Präzision im Gleisbau – regional & zertifiziert</h2>
-                            <p className="mb-11 text-primary dark:text-secondary-dark">Seit 2010 steht GBMV für zuverlässige Leistungen im Gleis- und Tiefbau. Unser eingespieltes Team arbeitet im Mittel- und Norddeutschen Raum und betreut Projekte von Bau über Instandhaltung bis zur Sanierung von Bahnanlagen. Als zertifiziertes Mitglied der Überwachungsgemeinschaft Gleisbau e.V. und präqualifizierter Partner der Deutschen Bahn setzen wir auf Qualität, Verlässlichkeit und moderne Technik.
+                            <p className="mb-11 text-primary dark:text-secondary-dark">Seit 2010 steht GBMV für zuverlässige Leistungen im Gleis- und Tiefbau. Unser eingespieltes Team arbeitet im Nord- und Mitteldeutschen  Raum und betreut Projekte von Bau über Instandhaltung bis zur Sanierung von Bahnanlagen. Als zertifiziertes Mitglied der Überwachungsgemeinschaft Gleisbau e.V. und präqualifizierter Partner der Deutschen Bahn setzen wir auf Qualität, Verlässlichkeit und moderne Technik. Dazu gehört unter anderem auch unser leistungsfähiger Fuhrpark mit LKW und drei Zwei-Wege-Baggern.
+                                Langjährig gewachsene Partnerschaften in der Materialversorgung und Leistungserbringung, sichern unseren gemeinsamen Erfolg ab.
+
 
                             </p>
                         </div>
@@ -29,9 +31,9 @@ const About = () => {
                             <p>Geschäftsführer</p> */}
                         {/* </div> */}
                         {/**btn */}
-                       <a href="mailto:info@gleisbau-mv.de">
-                       <Button text="Kontakt" />
-                       </a>
+                        <a href="mailto:info@gleisbau-mv.de">
+                            <Button text="Kontakt" />
+                        </a>
                     </motion.div>
                     {/**img*/}
                     <motion.div

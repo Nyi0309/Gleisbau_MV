@@ -147,7 +147,7 @@ const items: ItemType[] = [
         category: "2025",
         title: "Kunde: Deutsche Bahn",
         description:
-            "Kompletterneuerung Bahnübergang mit Rammrohrgründungsarbeiten und Kabeltiefbau inklusive umfangreicher Straßenbaumaßnahmen und Bernerdeich/Niedersachsen",
+            "Kompletterneuerung Bahnübergang mit Rammrohrgründungsarbeiten und Kabeltiefbau inklusive umfangreicher Straßenbaumaßnahmen und Berner Deich/Niedersachsen",
     },
     {
         id: 3,
