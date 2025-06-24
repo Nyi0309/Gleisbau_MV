@@ -18,29 +18,29 @@ const barlow = Barlow({
 export const metadata: Metadata = {
   title: "Gleisbau MV",
   description:
-  "Die GBMV GmbH ist Ihr zuverlässiger Partner für Gleisbau, Tiefbau und Infrastrukturprojekte in Mecklenburg-Vorpommern. Von Weichenbau bis Entwässerung – wir realisieren Bauprojekte mit höchster Präzision und Effizienz.",
+    "Die GBMV GmbH ist Ihr zuverlässiger Partner für Gleisbau, Tiefbau und Infrastrukturprojekte in Mecklenburg-Vorpommern. Von Weichenbau bis Entwässerung – wir realisieren Bauprojekte mit höchster Präzision und Effizienz.",
   keywords:
-  "Gleisbau MV, GBMV, Gleisbau Mecklenburg-Vorpommern, Weichenbau, Kranschienenbau, Schienenauswechslung, Tiefbau, Bahnbau, Infrastrukturprojekte, Entwässerung, Bahnübergang, Bahnsteigbau, Rangierwege",
+    "Gleisbau MV, GBMV, Gleisbau Mecklenburg-Vorpommern, Weichenbau, Kranschienenbau, Schienenauswechslung, Tiefbau, Bahnbau, Infrastrukturprojekte, Entwässerung, Bahnübergang, Bahnsteigbau, Rangierwege",
   icons: {
     icon: "/favicon.ico",
   },
   metadataBase: new URL("https://gleisbau-mv.de"),
-  robots: "index, follow", 
+  robots: "index, follow",
   openGraph: {
     title: "Gleisbau MV | Gleis- und Tiefbau für nachhaltige Infrastruktur",
     description:
-    "Professioneller Gleis- und Weichenbau, Kranschienenbau, Tiefbau, Entwässerung und mehr – GBMV GmbH ist Ihr Spezialist für Infrastrukturprojekte.",
-    images: "/assets/img/hero.jpg", 
+      "Professioneller Gleis- und Weichenbau, Kranschienenbau, Tiefbau, Entwässerung und mehr – GBMV GmbH ist Ihr Spezialist für Infrastrukturprojekte.",
+    images: "/assets/img/hero.jpg",
     siteName: "Gleisbau MV",
-    url: "https://www.schlosserei-grawe.de",
+    url: "https://www.gleisbau-mv.de/",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image", 
+    card: "summary_large_image",
     title: "Gleisbau MV | Gleisbau mit Erfahrung und Präzision",
     description:
-    "Von der Schienenauswechslung bis zum Bahnsteigbau – GBMV bietet Gleisbauarbeiten auf höchstem Niveau in MV.",
-      images: "/assets/img/hero.jpg", 
+      "Von der Schienenauswechslung bis zum Bahnsteigbau – GBMV bietet Gleisbauarbeiten auf höchstem Niveau in MV.",
+    images: "/assets/img/hero.jpg",
   },
 };
 
@@ -58,7 +58,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${barlow.variable} antialiased dark:bg-primary bg-white overflow-x-hidden`}
       >
-          {children}
+        {children}
       </body>
     </html>
   );
